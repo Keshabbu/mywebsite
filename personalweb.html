@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      margin: 0;
+    }
+
+    /* Header Section */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    header nav ul li {
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+      color: #ffa500;
+    }
+
+    /* Section Styles */
+    .section {
+      text-align: center;
+      padding: 50px 20px;
+      background: #fff;
+      margin: 20px auto;
+      max-width: 1200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h1, .section h2 {
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .section p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* About Section with Photo */
+    #about img {
+      border-radius: 50%;
+      width: 1500px;
+      height: 1500px;
+      object-fit: cover;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .section ul li {
+      font-size: 18px;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    /* Portfolio Section */
+    .portfolio-item {
+      background: #f4f4f4;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-item h3 {
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-item p {
+      color: #666;
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 18px;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    /* Footer Styles */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header nav ul {
+        flex-direction: column;
+      }
+
+      header nav ul li {
+        margin: 10px 0;
+      }
+
+      .section {
+        padding: 30px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm [Keshab Budhathoki], a passionate developer ready to bring your ideas to life.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <!-- Add your photo here -->
+    
+    <p>I am a software developer with expertise in Java, Python, and networking solutions. I specialize in building apps and analyzing data to solve real-world problems.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java Development</li>
+      <li>Python Programming</li>
+      <li>Database Management</li>
+      <li>Networking (CCNA Certified)</li>
+      <li>Web Development</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+      <h3>Project 1: Task Tracker App</h3>
+      <p>A simple mobile app for managing daily tasks.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Project 2: E-commerce Website</h3>
+      <p>An online store with a modern design and easy navigation.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Project 3: Data Science and Business Intelligence</h3>
+        <p>Analyzation of data, Visualization of data, Interpretation and forcasting.</p>
+      </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: keshabbudhathoki04@gmail.com</p>
+    <p>Phone: +004915781770086</p>
+  </section>
+
+  <footer>
+    <p>© 2024 [Keshab Budhathoki]. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
